@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/home/pstiverson/Projects/AR-808/hardware/adsr/adsr.kicad_sch</source>
-    <date>Wed 03 Jan 2024 09:33:17 AM CST</date>
+    <date>Mon 15 Jan 2024 08:54:39 AM CST</date>
     <tool>Eeschema 7.0.9-7.0.9~ubuntu22.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -26,6 +26,7 @@
   <components>
     <comp ref="C1">
       <value>22u 35V</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</footprint>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="adsr.kicad_sch"/>
@@ -36,6 +37,7 @@
     </comp>
     <comp ref="C2">
       <value>22u 35V</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</footprint>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="adsr.kicad_sch"/>
@@ -46,6 +48,7 @@
     </comp>
     <comp ref="C3">
       <value>10n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="adsr.kicad_sch"/>
@@ -56,6 +59,7 @@
     </comp>
     <comp ref="C4">
       <value>10u 35V Tant</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</footprint>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="adsr.kicad_sch"/>
@@ -66,6 +70,7 @@
     </comp>
     <comp ref="C5">
       <value>10n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="adsr.kicad_sch"/>
@@ -76,6 +81,7 @@
     </comp>
     <comp ref="C6">
       <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="adsr.kicad_sch"/>
@@ -86,6 +92,7 @@
     </comp>
     <comp ref="C7">
       <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="adsr.kicad_sch"/>
@@ -96,6 +103,7 @@
     </comp>
     <comp ref="C8">
       <value>1u 35V Tant</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</footprint>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="adsr.kicad_sch"/>
@@ -106,6 +114,7 @@
     </comp>
     <comp ref="D1">
       <value>1N4148</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
       <fields>
         <field name="Sim.Device">D</field>
         <field name="Sim.Pins">1=K 2=A</field>
@@ -122,6 +131,7 @@
     </comp>
     <comp ref="D2">
       <value>1N4148</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
       <fields>
         <field name="Sim.Device">D</field>
         <field name="Sim.Pins">1=K 2=A</field>
@@ -138,6 +148,7 @@
     </comp>
     <comp ref="D3">
       <value>1N4148</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
       <fields>
         <field name="Sim.Device">D</field>
         <field name="Sim.Pins">1=K 2=A</field>
@@ -154,6 +165,7 @@
     </comp>
     <comp ref="D4">
       <value>1N4148</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
       <fields>
         <field name="Sim.Device">D</field>
         <field name="Sim.Pins">1=K 2=A</field>
@@ -170,6 +182,7 @@
     </comp>
     <comp ref="D5">
       <value>1N4148</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
       <fields>
         <field name="Sim.Device">D</field>
         <field name="Sim.Pins">1=K 2=A</field>
@@ -186,6 +199,7 @@
     </comp>
     <comp ref="D6">
       <value>LED</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="adsr.kicad_sch"/>
@@ -230,8 +244,152 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>183996e8-1172-4249-8eb5-8bba9127f70c</tstamps>
     </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>Eurorack:Mech-MountingHole</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="adsr.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole with connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>92e709f6-8012-46ab-a8d9-a3d533c0e871</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>Eurorack:Mech-MountingHole</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="adsr.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole with connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a38373cc-6a79-45ad-b16c-eba9cecb5ad2</tstamps>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole</value>
+      <footprint>Eurorack:Mech-MountingHole</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="adsr.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole with connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bfe26816-d456-4003-bd39-89e69b6c7777</tstamps>
+    </comp>
+    <comp ref="H5">
+      <value>attack</value>
+      <footprint>Eurorack:Mech-Potentiometer-Hole_level</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="adsr.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole with connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a27b968b-a4db-482c-ade7-2b47ea34e709</tstamps>
+    </comp>
+    <comp ref="H6">
+      <value>decay</value>
+      <footprint>Eurorack:Mech-Potentiometer-Hole_level</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="adsr.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole with connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dc807ca8-3390-46e9-91e6-ef986ace2175</tstamps>
+    </comp>
+    <comp ref="H7">
+      <value>sustain</value>
+      <footprint>Eurorack:Mech-Potentiometer-Hole_level</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="adsr.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole with connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c54b9dee-c4cb-4e40-a553-c82e106ca491</tstamps>
+    </comp>
+    <comp ref="H8">
+      <value>release</value>
+      <footprint>Eurorack:Mech-Potentiometer-Hole_level</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="adsr.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole with connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fae05aca-9806-4971-bdbb-d71105c422eb</tstamps>
+    </comp>
+    <comp ref="H9">
+      <value>gate</value>
+      <footprint>Eurorack:Mech-AudioJack-Hole</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="adsr.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole with connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>92d5db0b-8cbc-4926-b337-00f249c6bf59</tstamps>
+    </comp>
+    <comp ref="H10">
+      <value>trig</value>
+      <footprint>Eurorack:Mech-PushButton-Hole_Tayda_A-5051</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="adsr.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole with connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8746ef32-a18d-4b48-b6d9-4a20e0d3f917</tstamps>
+    </comp>
+    <comp ref="H11">
+      <value>out</value>
+      <footprint>Eurorack:Mech-AudioJack-Hole-Output</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="adsr.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole with connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a594d33a-7b85-4cf4-8bb3-00767e364262</tstamps>
+    </comp>
+    <comp ref="H12">
+      <value>inv</value>
+      <footprint>Eurorack:Mech-AudioJack-Hole-Output</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="adsr.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole with connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2e8558f6-fc5d-4e39-8131-c212dc5027e4</tstamps>
+    </comp>
+    <comp ref="H13">
+      <value>led</value>
+      <footprint>Eurorack:Mech-LED-Hole-4mm</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="adsr.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole with connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ab376984-70e9-4490-8dbb-5a99e5fd685c</tstamps>
+    </comp>
+    <comp ref="H14">
+      <value>speed</value>
+      <footprint>Eurorack:Mech-2M_Switch-Hole</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="adsr.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole with connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f088c1b0-84c1-4c8d-86cc-b20382b1a985</tstamps>
+    </comp>
     <comp ref="J1">
       <value>AudioJack2_SwitchT</value>
+      <footprint>Eurorack:AudioJack2_Tayda_A-2566</footprint>
       <fields>
         <field name="PartNum">A-2566</field>
         <field name="Vendor">Tayda</field>
@@ -248,6 +406,7 @@
     </comp>
     <comp ref="J2">
       <value>AudioJack2_SwitchT</value>
+      <footprint>Eurorack:AudioJack2_Tayda_A-2566</footprint>
       <fields>
         <field name="PartNum">A-2566</field>
         <field name="Vendor">Tayda</field>
@@ -264,6 +423,7 @@
     </comp>
     <comp ref="J3">
       <value>AudioJack2_SwitchT</value>
+      <footprint>Eurorack:AudioJack2_Tayda_A-2566</footprint>
       <fields>
         <field name="PartNum">A-2566</field>
         <field name="Vendor">Tayda</field>
@@ -280,6 +440,7 @@
     </comp>
     <comp ref="J4">
       <value>Conn_02x05_Odd_Even</value>
+      <footprint>Eurorack:PinHeader_2x05_P2.54mm_Vertical</footprint>
       <fields>
         <field name="PartNum">A-2939</field>
         <field name="Vendor">Tayda</field>
@@ -296,6 +457,7 @@
     </comp>
     <comp ref="JP1">
       <value>Jumper_2_Bridged</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
       <libsource lib="Jumper" part="Jumper_2_Bridged" description="Jumper, 2-pole, closed/bridged"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="adsr.kicad_sch"/>
@@ -306,7 +468,7 @@
     </comp>
     <comp ref="Q1">
       <value>BC547</value>
-      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <footprint>Package_TO_SOT_THT:TO-92L_Inline_Wide</footprint>
       <datasheet>https://www.onsemi.com/pub/Collateral/BC550-D.pdf</datasheet>
       <fields>
         <field name="PartNum">771-BCM847DS135</field>
@@ -324,7 +486,7 @@
     </comp>
     <comp ref="Q2">
       <value>BC547</value>
-      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <footprint>Package_TO_SOT_THT:TO-92L_Inline_Wide</footprint>
       <datasheet>https://www.onsemi.com/pub/Collateral/BC550-D.pdf</datasheet>
       <fields>
         <field name="PartNum">771-BCM847DS135</field>
@@ -342,7 +504,7 @@
     </comp>
     <comp ref="Q3">
       <value>BC547</value>
-      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <footprint>Package_TO_SOT_THT:TO-92L_Inline_Wide</footprint>
       <datasheet>https://www.onsemi.com/pub/Collateral/BC550-D.pdf</datasheet>
       <fields>
         <field name="PartNum">771-BCM847DS135</field>
@@ -378,6 +540,7 @@
     </comp>
     <comp ref="R1">
       <value>10</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="adsr.kicad_sch"/>
@@ -388,6 +551,7 @@
     </comp>
     <comp ref="R2">
       <value>10</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="adsr.kicad_sch"/>
@@ -398,6 +562,7 @@
     </comp>
     <comp ref="R3">
       <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="adsr.kicad_sch"/>
@@ -408,6 +573,7 @@
     </comp>
     <comp ref="R4">
       <value>47K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="adsr.kicad_sch"/>
@@ -418,6 +584,7 @@
     </comp>
     <comp ref="R5">
       <value>1.2M</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="adsr.kicad_sch"/>
@@ -428,6 +595,7 @@
     </comp>
     <comp ref="R6">
       <value>1M</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="adsr.kicad_sch"/>
@@ -438,6 +606,7 @@
     </comp>
     <comp ref="R7">
       <value>22K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="adsr.kicad_sch"/>
@@ -448,6 +617,7 @@
     </comp>
     <comp ref="R8">
       <value>22K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="adsr.kicad_sch"/>
@@ -458,6 +628,7 @@
     </comp>
     <comp ref="R9">
       <value>10</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="adsr.kicad_sch"/>
@@ -468,6 +639,7 @@
     </comp>
     <comp ref="R10">
       <value>22K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="adsr.kicad_sch"/>
@@ -478,6 +650,7 @@
     </comp>
     <comp ref="R11">
       <value>22K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="adsr.kicad_sch"/>
@@ -488,6 +661,7 @@
     </comp>
     <comp ref="R12">
       <value>1M</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="adsr.kicad_sch"/>
@@ -498,6 +672,7 @@
     </comp>
     <comp ref="R13">
       <value>100</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="adsr.kicad_sch"/>
@@ -508,6 +683,7 @@
     </comp>
     <comp ref="R14">
       <value>120</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="adsr.kicad_sch"/>
@@ -518,6 +694,7 @@
     </comp>
     <comp ref="R15">
       <value>680</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="adsr.kicad_sch"/>
@@ -528,6 +705,7 @@
     </comp>
     <comp ref="R16">
       <value>100</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="adsr.kicad_sch"/>
@@ -538,6 +716,7 @@
     </comp>
     <comp ref="R17">
       <value>4.7K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="adsr.kicad_sch"/>
@@ -548,6 +727,7 @@
     </comp>
     <comp ref="R18">
       <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="adsr.kicad_sch"/>
@@ -558,6 +738,7 @@
     </comp>
     <comp ref="R19">
       <value>100K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="adsr.kicad_sch"/>
@@ -568,6 +749,7 @@
     </comp>
     <comp ref="R20">
       <value>150K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="adsr.kicad_sch"/>
@@ -578,6 +760,7 @@
     </comp>
     <comp ref="R21">
       <value>100K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="adsr.kicad_sch"/>
@@ -588,6 +771,7 @@
     </comp>
     <comp ref="R22">
       <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="adsr.kicad_sch"/>
@@ -598,6 +782,7 @@
     </comp>
     <comp ref="R23">
       <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="adsr.kicad_sch"/>
@@ -608,6 +793,7 @@
     </comp>
     <comp ref="RV1">
       <value>A1M</value>
+      <footprint>Eurorack:Potentiometer_RV16AF-41-15R1</footprint>
       <fields>
         <field name="PartNum">A-2425</field>
         <field name="Vendor">Tayda</field>
@@ -624,6 +810,7 @@
     </comp>
     <comp ref="RV2">
       <value>A1M</value>
+      <footprint>Eurorack:Potentiometer_RV16AF-41-15R1</footprint>
       <fields>
         <field name="PartNum">A-2425</field>
         <field name="Vendor">Tayda</field>
@@ -640,6 +827,7 @@
     </comp>
     <comp ref="RV3">
       <value>A1M</value>
+      <footprint>Eurorack:Potentiometer_RV16AF-41-15R1</footprint>
       <fields>
         <field name="PartNum">A-2425</field>
         <field name="Vendor">Tayda</field>
@@ -656,6 +844,7 @@
     </comp>
     <comp ref="RV4">
       <value>B10K</value>
+      <footprint>Eurorack:Potentiometer_RV16AF-41-15R1</footprint>
       <fields>
         <field name="PartNum">A-2969</field>
         <field name="Vendor">Tayda</field>
@@ -672,6 +861,7 @@
     </comp>
     <comp ref="SW1">
       <value>SW_Push</value>
+      <footprint>Eurorack:PushButton_Tayda_A-5051</footprint>
       <fields>
         <field name="PartNum">A-5051</field>
         <field name="Vendor">Tayda</field>
@@ -688,6 +878,7 @@
     </comp>
     <comp ref="SW2">
       <value>SW_DPDT_x2</value>
+      <footprint>Eurorack:Switch_DPDT_Tayda_A-5752</footprint>
       <fields>
         <field name="PartNum">A-6809</field>
         <field name="Vendor">Tayda</field>
@@ -722,6 +913,7 @@
     </comp>
     <comp ref="U2">
       <value>TL074</value>
+      <footprint>Package_SO:SOIC-14_3.9x8.7mm_P1.27mm</footprint>
       <datasheet>http://www.ti.com/lit/ds/symlink/tl071.pdf</datasheet>
       <fields>
         <field name="PartNum">595-TL074CN</field>
@@ -735,7 +927,7 @@
       <property name="ki_description" value="Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"/>
       <property name="ki_keywords" value="quad opamp"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>d107233c-0465-4208-859a-8f370b10f0ea 88beb13f-410f-4014-85cd-961ac08cff86 61db16e9-ea06-410e-9f7a-d0b0ecf1dc1f 53d8503d-0525-467c-9a67-650161789da9 10110521-b6f7-4f63-bff0-39731510fb2b</tstamps>
+      <tstamps>d107233c-0465-4208-859a-8f370b10f0ea 61db16e9-ea06-410e-9f7a-d0b0ecf1dc1f 53d8503d-0525-467c-9a67-650161789da9 88beb13f-410f-4014-85cd-961ac08cff86 10110521-b6f7-4f63-bff0-39731510fb2b</tstamps>
     </comp>
   </components>
   <libparts>
@@ -977,6 +1169,21 @@
         <pin num="2" name="B" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="Mechanical" part="MountingHole_Pad">
+      <description>Mounting Hole with connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*Pad*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole_Pad</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
     <libpart lib="Switch" part="SW_DPDT_x2">
       <description>Switch, dual pole double throw, separate symbols</description>
       <docs>~</docs>
@@ -1065,6 +1272,9 @@
     <library logical="Jumper">
       <uri>/usr/share/kicad/symbols//Jumper.kicad_sym</uri>
     </library>
+    <library logical="Mechanical">
+      <uri>/usr/share/kicad/symbols//Mechanical.kicad_sym</uri>
+    </library>
     <library logical="Switch">
       <uri>/usr/share/kicad/symbols//Switch.kicad_sym</uri>
     </library>
@@ -1079,18 +1289,24 @@
     <net code="1" name="+12V">
       <node ref="C1" pin="1" pintype="passive"/>
       <node ref="C6" pin="1" pintype="passive"/>
-      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="D7" pin="2" pinfunction="K" pintype="passive"/>
+      <node ref="D8" pin="2" pinfunction="K" pintype="passive"/>
       <node ref="R11" pin="1" pintype="passive"/>
       <node ref="R17" pin="1" pintype="passive"/>
       <node ref="R3" pin="2" pintype="passive"/>
       <node ref="R7" pin="1" pintype="passive"/>
       <node ref="R8" pin="1" pintype="passive"/>
       <node ref="U1" pin="8" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U2" pin="4" pinfunction="V+" pintype="power_in"/>
     </net>
     <net code="2" name="-12V">
       <node ref="C2" pin="2" pintype="passive"/>
-      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="D7" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="D8" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="R20" pin="2" pintype="passive"/>
+      <node ref="U2" pin="11" pinfunction="V-" pintype="power_in"/>
     </net>
     <net code="3" name="/ATTACK">
       <node ref="R15" pin="2" pintype="passive"/>
@@ -1104,6 +1320,21 @@
     <net code="5" name="/DECAY_CW">
       <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="RV2" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="6" name="/FACE">
+      <node ref="H10" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H11" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H12" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H13" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H14" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H2" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H3" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H4" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H5" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H6" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H7" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H8" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H9" pin="1" pinfunction="1" pintype="input"/>
     </net>
     <net code="7" name="/INV">
       <node ref="J3" pin="T" pintype="passive"/>
@@ -1192,30 +1423,28 @@
       <node ref="R18" pin="1" pintype="passive"/>
       <node ref="U2" pin="6" pinfunction="-" pintype="input"/>
     </net>
-    <net code="20" name="Net-(D7-A)">
-      <node ref="D7" pin="1" pinfunction="A" pintype="passive"/>
-      <node ref="D8" pin="1" pinfunction="A" pintype="passive"/>
-      <node ref="R2" pin="1" pintype="passive"/>
-    </net>
-    <net code="21" name="Net-(D7-COM)">
+    <net code="20" name="Net-(D7-COM)">
       <node ref="D7" pin="3" pinfunction="COM" pintype="passive"/>
-      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
     </net>
-    <net code="22" name="Net-(D7-K)">
-      <node ref="D7" pin="2" pinfunction="K" pintype="passive"/>
-      <node ref="D8" pin="2" pinfunction="K" pintype="passive"/>
-      <node ref="R1" pin="2" pintype="passive"/>
-    </net>
-    <net code="23" name="Net-(D8-COM)">
+    <net code="21" name="Net-(D8-COM)">
       <node ref="D8" pin="3" pinfunction="COM" pintype="passive"/>
-      <node ref="J4" pin="10" pinfunction="Pin_10" pintype="passive"/>
-      <node ref="J4" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
     </net>
-    <net code="24" name="Net-(J1-PadT)">
+    <net code="22" name="Net-(J1-PadT)">
       <node ref="J1" pin="T" pintype="passive"/>
       <node ref="R5" pin="2" pintype="passive"/>
       <node ref="R6" pin="2" pintype="passive"/>
+    </net>
+    <net code="23" name="Net-(J4-Pin_1)">
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="24" name="Net-(J4-Pin_10)">
+      <node ref="J4" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="J4" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
     </net>
     <net code="25" name="Net-(JP1-A)">
       <node ref="JP1" pin="1" pinfunction="A" pintype="passive"/>
@@ -1247,53 +1476,56 @@
       <node ref="R11" pin="2" pintype="passive"/>
       <node ref="U1" pin="2" pinfunction="TR" pintype="input"/>
     </net>
-    <net code="31" name="Net-(Q4-G)">
+    <net code="31" name="Net-(Q4-D)">
+      <node ref="Q4" pin="1" pinfunction="D" pintype="passive"/>
+      <node ref="RV4" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="32" name="Net-(Q4-G)">
       <node ref="Q4" pin="2" pinfunction="G" pintype="input"/>
       <node ref="R12" pin="1" pintype="passive"/>
     </net>
-    <net code="32" name="Net-(Q4-S)">
+    <net code="33" name="Net-(Q4-S)">
       <node ref="Q4" pin="3" pinfunction="S" pintype="passive"/>
-      <node ref="RV4" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U1" pin="7" pinfunction="DIS" pintype="input"/>
     </net>
-    <net code="33" name="Net-(R3-Pad1)">
+    <net code="34" name="Net-(R3-Pad1)">
       <node ref="R3" pin="1" pintype="passive"/>
       <node ref="SW1" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="34" name="Net-(R4-Pad1)">
+    <net code="35" name="Net-(R4-Pad1)">
       <node ref="R4" pin="1" pintype="passive"/>
       <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="35" name="Net-(R17-Pad2)">
+    <net code="36" name="Net-(R17-Pad2)">
       <node ref="R17" pin="2" pintype="passive"/>
       <node ref="RV4" pin="3" pinfunction="3" pintype="passive"/>
     </net>
-    <net code="36" name="Net-(R21-Pad1)">
+    <net code="37" name="Net-(R21-Pad1)">
       <node ref="R21" pin="1" pintype="passive"/>
       <node ref="R22" pin="2" pintype="passive"/>
       <node ref="U2" pin="14" pintype="output"/>
     </net>
-    <net code="37" name="Net-(SW2A-B)">
+    <net code="38" name="Net-(SW2A-B)">
       <node ref="R14" pin="1" pintype="passive"/>
       <node ref="SW2" pin="2" pinfunction="B" pintype="passive"/>
     </net>
-    <net code="38" name="Net-(SW2B-A)">
+    <net code="39" name="Net-(SW2B-A)">
       <node ref="C8" pin="2" pintype="passive"/>
       <node ref="SW2" pin="4" pinfunction="A" pintype="passive"/>
     </net>
-    <net code="39" name="Net-(SW2B-C)">
+    <net code="40" name="Net-(SW2B-C)">
       <node ref="C4" pin="2" pintype="passive"/>
       <node ref="SW2" pin="6" pinfunction="C" pintype="passive"/>
     </net>
-    <net code="40" name="Net-(U1-CV)">
+    <net code="41" name="Net-(U1-CV)">
       <node ref="C5" pin="2" pintype="passive"/>
       <node ref="U1" pin="5" pinfunction="CV" pintype="input"/>
     </net>
-    <net code="41" name="Net-(U1-Q)">
+    <net code="42" name="Net-(U1-Q)">
       <node ref="RV1" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U1" pin="3" pinfunction="Q" pintype="output"/>
     </net>
-    <net code="42" name="Net-(U1-THR)">
+    <net code="43" name="Net-(U1-THR)">
       <node ref="R18" pin="2" pintype="passive"/>
       <node ref="R19" pin="1" pintype="passive"/>
       <node ref="R23" pin="2" pintype="passive"/>
@@ -1301,36 +1533,25 @@
       <node ref="U2" pin="1" pintype="output"/>
       <node ref="U2" pin="2" pinfunction="-" pintype="input"/>
     </net>
-    <net code="43" name="Net-(U2E-V+)">
-      <node ref="C7" pin="1" pintype="passive"/>
-      <node ref="U2" pin="4" pinfunction="V+" pintype="power_in"/>
+    <net code="44" name="unconnected-(J1-PadTN)">
+      <node ref="J1" pin="TN" pintype="passive+no_connect"/>
     </net>
-    <net code="44" name="Net-(U2E-V-)">
-      <node ref="C7" pin="2" pintype="passive"/>
-      <node ref="U2" pin="11" pinfunction="V-" pintype="power_in"/>
+    <net code="45" name="unconnected-(J2-PadTN)">
+      <node ref="J2" pin="TN" pintype="passive+no_connect"/>
     </net>
-    <net code="45" name="unconnected-(J1-PadTN)">
-      <node ref="J1" pin="TN" pintype="passive"/>
+    <net code="46" name="unconnected-(J3-PadTN)">
+      <node ref="J3" pin="TN" pintype="passive+no_connect"/>
     </net>
-    <net code="46" name="unconnected-(J2-PadTN)">
-      <node ref="J2" pin="TN" pintype="passive"/>
-    </net>
-    <net code="47" name="unconnected-(J3-PadTN)">
-      <node ref="J3" pin="TN" pintype="passive"/>
-    </net>
-    <net code="48" name="unconnected-(Q4-D-Pad1)">
-      <node ref="Q4" pin="1" pinfunction="D" pintype="passive"/>
-    </net>
-    <net code="49" name="unconnected-(RV1-Pad3)">
+    <net code="47" name="unconnected-(RV1-Pad3)">
       <node ref="RV1" pin="3" pinfunction="3" pintype="passive+no_connect"/>
     </net>
-    <net code="50" name="unconnected-(RV2-Pad1)">
+    <net code="48" name="unconnected-(RV2-Pad1)">
       <node ref="RV2" pin="1" pinfunction="1" pintype="passive+no_connect"/>
     </net>
-    <net code="51" name="unconnected-(RV3-Pad3)">
+    <net code="49" name="unconnected-(RV3-Pad3)">
       <node ref="RV3" pin="3" pinfunction="3" pintype="passive+no_connect"/>
     </net>
-    <net code="52" name="unconnected-(SW2A-A-Pad1)">
+    <net code="50" name="unconnected-(SW2A-A-Pad1)">
       <node ref="SW2" pin="1" pinfunction="A" pintype="passive+no_connect"/>
     </net>
   </nets>
