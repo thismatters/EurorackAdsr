@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/home/pstiverson/Projects/AR-808/hardware/adsr/adsr.kicad_sch</source>
-    <date>Mon 15 Jan 2024 08:54:39 AM CST</date>
+    <date>Mon 15 Jan 2024 09:25:46 AM CST</date>
     <tool>Eeschema 7.0.9-7.0.9~ubuntu22.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -243,149 +243,6 @@
       <property name="ki_keywords" value="schottky diode"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>183996e8-1172-4249-8eb5-8bba9127f70c</tstamps>
-    </comp>
-    <comp ref="H2">
-      <value>MountingHole</value>
-      <footprint>Eurorack:Mech-MountingHole</footprint>
-      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="adsr.kicad_sch"/>
-      <property name="ki_description" value="Mounting Hole with connection"/>
-      <property name="ki_keywords" value="mounting hole"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>92e709f6-8012-46ab-a8d9-a3d533c0e871</tstamps>
-    </comp>
-    <comp ref="H3">
-      <value>MountingHole</value>
-      <footprint>Eurorack:Mech-MountingHole</footprint>
-      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="adsr.kicad_sch"/>
-      <property name="ki_description" value="Mounting Hole with connection"/>
-      <property name="ki_keywords" value="mounting hole"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>a38373cc-6a79-45ad-b16c-eba9cecb5ad2</tstamps>
-    </comp>
-    <comp ref="H4">
-      <value>MountingHole</value>
-      <footprint>Eurorack:Mech-MountingHole</footprint>
-      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="adsr.kicad_sch"/>
-      <property name="ki_description" value="Mounting Hole with connection"/>
-      <property name="ki_keywords" value="mounting hole"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>bfe26816-d456-4003-bd39-89e69b6c7777</tstamps>
-    </comp>
-    <comp ref="H5">
-      <value>attack</value>
-      <footprint>Eurorack:Mech-Potentiometer-Hole_level</footprint>
-      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="adsr.kicad_sch"/>
-      <property name="ki_description" value="Mounting Hole with connection"/>
-      <property name="ki_keywords" value="mounting hole"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>a27b968b-a4db-482c-ade7-2b47ea34e709</tstamps>
-    </comp>
-    <comp ref="H6">
-      <value>decay</value>
-      <footprint>Eurorack:Mech-Potentiometer-Hole_level</footprint>
-      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="adsr.kicad_sch"/>
-      <property name="ki_description" value="Mounting Hole with connection"/>
-      <property name="ki_keywords" value="mounting hole"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>dc807ca8-3390-46e9-91e6-ef986ace2175</tstamps>
-    </comp>
-    <comp ref="H7">
-      <value>sustain</value>
-      <footprint>Eurorack:Mech-Potentiometer-Hole_level</footprint>
-      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="adsr.kicad_sch"/>
-      <property name="ki_description" value="Mounting Hole with connection"/>
-      <property name="ki_keywords" value="mounting hole"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>c54b9dee-c4cb-4e40-a553-c82e106ca491</tstamps>
-    </comp>
-    <comp ref="H8">
-      <value>release</value>
-      <footprint>Eurorack:Mech-Potentiometer-Hole_level</footprint>
-      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="adsr.kicad_sch"/>
-      <property name="ki_description" value="Mounting Hole with connection"/>
-      <property name="ki_keywords" value="mounting hole"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>fae05aca-9806-4971-bdbb-d71105c422eb</tstamps>
-    </comp>
-    <comp ref="H9">
-      <value>gate</value>
-      <footprint>Eurorack:Mech-AudioJack-Hole</footprint>
-      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="adsr.kicad_sch"/>
-      <property name="ki_description" value="Mounting Hole with connection"/>
-      <property name="ki_keywords" value="mounting hole"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>92d5db0b-8cbc-4926-b337-00f249c6bf59</tstamps>
-    </comp>
-    <comp ref="H10">
-      <value>trig</value>
-      <footprint>Eurorack:Mech-PushButton-Hole_Tayda_A-5051</footprint>
-      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="adsr.kicad_sch"/>
-      <property name="ki_description" value="Mounting Hole with connection"/>
-      <property name="ki_keywords" value="mounting hole"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>8746ef32-a18d-4b48-b6d9-4a20e0d3f917</tstamps>
-    </comp>
-    <comp ref="H11">
-      <value>out</value>
-      <footprint>Eurorack:Mech-AudioJack-Hole-Output</footprint>
-      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="adsr.kicad_sch"/>
-      <property name="ki_description" value="Mounting Hole with connection"/>
-      <property name="ki_keywords" value="mounting hole"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>a594d33a-7b85-4cf4-8bb3-00767e364262</tstamps>
-    </comp>
-    <comp ref="H12">
-      <value>inv</value>
-      <footprint>Eurorack:Mech-AudioJack-Hole-Output</footprint>
-      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="adsr.kicad_sch"/>
-      <property name="ki_description" value="Mounting Hole with connection"/>
-      <property name="ki_keywords" value="mounting hole"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>2e8558f6-fc5d-4e39-8131-c212dc5027e4</tstamps>
-    </comp>
-    <comp ref="H13">
-      <value>led</value>
-      <footprint>Eurorack:Mech-LED-Hole-4mm</footprint>
-      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="adsr.kicad_sch"/>
-      <property name="ki_description" value="Mounting Hole with connection"/>
-      <property name="ki_keywords" value="mounting hole"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>ab376984-70e9-4490-8dbb-5a99e5fd685c</tstamps>
-    </comp>
-    <comp ref="H14">
-      <value>speed</value>
-      <footprint>Eurorack:Mech-2M_Switch-Hole</footprint>
-      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="adsr.kicad_sch"/>
-      <property name="ki_description" value="Mounting Hole with connection"/>
-      <property name="ki_keywords" value="mounting hole"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>f088c1b0-84c1-4c8d-86cc-b20382b1a985</tstamps>
     </comp>
     <comp ref="J1">
       <value>AudioJack2_SwitchT</value>
@@ -1320,21 +1177,6 @@
     <net code="5" name="/DECAY_CW">
       <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="RV2" pin="3" pinfunction="3" pintype="passive"/>
-    </net>
-    <net code="6" name="/FACE">
-      <node ref="H10" pin="1" pinfunction="1" pintype="input"/>
-      <node ref="H11" pin="1" pinfunction="1" pintype="input"/>
-      <node ref="H12" pin="1" pinfunction="1" pintype="input"/>
-      <node ref="H13" pin="1" pinfunction="1" pintype="input"/>
-      <node ref="H14" pin="1" pinfunction="1" pintype="input"/>
-      <node ref="H2" pin="1" pinfunction="1" pintype="input"/>
-      <node ref="H3" pin="1" pinfunction="1" pintype="input"/>
-      <node ref="H4" pin="1" pinfunction="1" pintype="input"/>
-      <node ref="H5" pin="1" pinfunction="1" pintype="input"/>
-      <node ref="H6" pin="1" pinfunction="1" pintype="input"/>
-      <node ref="H7" pin="1" pinfunction="1" pintype="input"/>
-      <node ref="H8" pin="1" pinfunction="1" pintype="input"/>
-      <node ref="H9" pin="1" pinfunction="1" pintype="input"/>
     </net>
     <net code="7" name="/INV">
       <node ref="J3" pin="T" pintype="passive"/>
