@@ -10,7 +10,7 @@
 "9","J1, J2, J3","3","AudioJack2_SwitchT","Eurorack:AudioJack2_Tayda_A-2566","","Tayda","A-2566"
 "10","J4","1","Conn_02x05_Odd_Even","Eurorack:PinHeader_2x05_P2.54mm_Vertical","","Tayda","A-2939"
 "11","JP1","1","Jumper_2_Bridged","Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical","","",""
-"12","Q1, Q2, Q3","3","BC547","Package_TO_SOT_THT:TO-92L_Inline_Wide","","Mouser","771-BCM847DS135"
+"12","Q1, Q2, Q3","3","BC547","Package_TO_SOT_THT:TO-92L_Inline_Wide","","Mouser","637-BC547C"
 "13","Q4","1","BS170","Package_TO_SOT_THT:TO-92_Inline","","Mouser","512-BS170"
 "14","R1, R2, R9","3","10","Resistor_SMD:R_0805_2012Metric","","",""
 "15","R3","1","10K","Resistor_SMD:R_0805_2012Metric","","",""

@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/home/pstiverson/Projects/AR-808/hardware/adsr/adsr.kicad_sch</source>
-    <date>Mon 15 Jan 2024 09:25:46 AM CST</date>
+    <date>Wed 31 Jan 2024 04:39:37 PM CST</date>
     <tool>Eeschema 7.0.9-7.0.9~ubuntu22.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -328,12 +328,12 @@
       <footprint>Package_TO_SOT_THT:TO-92L_Inline_Wide</footprint>
       <datasheet>https://www.onsemi.com/pub/Collateral/BC550-D.pdf</datasheet>
       <fields>
-        <field name="PartNum">771-BCM847DS135</field>
+        <field name="PartNum">637-BC547C</field>
         <field name="Vendor">Mouser</field>
       </fields>
       <libsource lib="Eurorack" part="BC547" description="0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"/>
       <property name="Vendor" value="Mouser"/>
-      <property name="PartNum" value="771-BCM847DS135"/>
+      <property name="PartNum" value="637-BC547C"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="adsr.kicad_sch"/>
       <property name="ki_description" value="0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"/>
@@ -346,12 +346,12 @@
       <footprint>Package_TO_SOT_THT:TO-92L_Inline_Wide</footprint>
       <datasheet>https://www.onsemi.com/pub/Collateral/BC550-D.pdf</datasheet>
       <fields>
-        <field name="PartNum">771-BCM847DS135</field>
+        <field name="PartNum">637-BC547C</field>
         <field name="Vendor">Mouser</field>
       </fields>
       <libsource lib="Eurorack" part="BC547" description="0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"/>
       <property name="Vendor" value="Mouser"/>
-      <property name="PartNum" value="771-BCM847DS135"/>
+      <property name="PartNum" value="637-BC547C"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="adsr.kicad_sch"/>
       <property name="ki_description" value="0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"/>
@@ -364,12 +364,12 @@
       <footprint>Package_TO_SOT_THT:TO-92L_Inline_Wide</footprint>
       <datasheet>https://www.onsemi.com/pub/Collateral/BC550-D.pdf</datasheet>
       <fields>
-        <field name="PartNum">771-BCM847DS135</field>
+        <field name="PartNum">637-BC547C</field>
         <field name="Vendor">Mouser</field>
       </fields>
       <libsource lib="Eurorack" part="BC547" description="0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"/>
       <property name="Vendor" value="Mouser"/>
-      <property name="PartNum" value="771-BCM847DS135"/>
+      <property name="PartNum" value="637-BC547C"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="adsr.kicad_sch"/>
       <property name="ki_description" value="0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"/>
@@ -1176,7 +1176,7 @@
     </net>
     <net code="5" name="/DECAY_CW">
       <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="RV2" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="RV2" pin="1" pinfunction="1" pintype="passive"/>
     </net>
     <net code="7" name="/INV">
       <node ref="J3" pin="T" pintype="passive"/>
@@ -1192,7 +1192,7 @@
     </net>
     <net code="10" name="/SUSTAIN">
       <node ref="RV4" pin="2" pinfunction="2" pintype="passive"/>
-      <node ref="U2" pin="9" pinfunction="-" pintype="input"/>
+      <node ref="U2" pin="10" pinfunction="+" pintype="input"/>
     </net>
     <net code="11" name="GND">
       <node ref="C1" pin="2" pintype="passive"/>
@@ -1251,8 +1251,8 @@
     </net>
     <net code="17" name="Net-(D4-K)">
       <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="U2" pin="10" pinfunction="+" pintype="input"/>
       <node ref="U2" pin="8" pintype="output"/>
+      <node ref="U2" pin="9" pinfunction="-" pintype="input"/>
     </net>
     <net code="18" name="Net-(D5-A)">
       <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
@@ -1387,8 +1387,8 @@
     <net code="47" name="unconnected-(RV1-Pad3)">
       <node ref="RV1" pin="3" pinfunction="3" pintype="passive+no_connect"/>
     </net>
-    <net code="48" name="unconnected-(RV2-Pad1)">
-      <node ref="RV2" pin="1" pinfunction="1" pintype="passive+no_connect"/>
+    <net code="48" name="unconnected-(RV2-Pad3)">
+      <node ref="RV2" pin="3" pinfunction="3" pintype="passive+no_connect"/>
     </net>
     <net code="49" name="unconnected-(RV3-Pad3)">
       <node ref="RV3" pin="3" pinfunction="3" pintype="passive+no_connect"/>
