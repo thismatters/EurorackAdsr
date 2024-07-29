@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/home/pstiverson/Projects/AR-808/hardware/adsr/adsr.kicad_sch</source>
-    <date>Wed 31 Jan 2024 04:39:37 PM CST</date>
+    <date>Mon 29 Jul 2024 08:03:33 AM CDT</date>
     <tool>Eeschema 7.0.9-7.0.9~ubuntu22.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -25,7 +25,7 @@
   </design>
   <components>
     <comp ref="C1">
-      <value>22u 35V</value>
+      <value>22u 50V</value>
       <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</footprint>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value=""/>
@@ -36,7 +36,7 @@
       <tstamps>b0ef2e1e-30f5-4bd3-8493-8ebcbcdf990f</tstamps>
     </comp>
     <comp ref="C2">
-      <value>22u 35V</value>
+      <value>22u 50V</value>
       <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</footprint>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value=""/>
@@ -60,10 +60,10 @@
     <comp ref="C4">
       <value>10u 35V Tant</value>
       <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</footprint>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="adsr.kicad_sch"/>
-      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_description" value="Polarized capacitor"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>e9d208b4-ec2a-4480-8ec6-ff9a9852350d</tstamps>
@@ -102,12 +102,12 @@
       <tstamps>8ee62c9a-a1b6-4929-95ce-856658ecce7d</tstamps>
     </comp>
     <comp ref="C8">
-      <value>1u 35V Tant</value>
+      <value>1u 50V Tant</value>
       <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</footprint>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="adsr.kicad_sch"/>
-      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_description" value="Polarized capacitor"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>5d8855c8-1598-4bc4-b89d-0c458d42f09d</tstamps>
@@ -784,7 +784,7 @@
       <property name="ki_description" value="Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"/>
       <property name="ki_keywords" value="quad opamp"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>d107233c-0465-4208-859a-8f370b10f0ea 61db16e9-ea06-410e-9f7a-d0b0ecf1dc1f 53d8503d-0525-467c-9a67-650161789da9 88beb13f-410f-4014-85cd-961ac08cff86 10110521-b6f7-4f63-bff0-39731510fb2b</tstamps>
+      <tstamps>53d8503d-0525-467c-9a67-650161789da9 61db16e9-ea06-410e-9f7a-d0b0ecf1dc1f 88beb13f-410f-4014-85cd-961ac08cff86 d107233c-0465-4208-859a-8f370b10f0ea 10110521-b6f7-4f63-bff0-39731510fb2b</tstamps>
     </comp>
   </components>
   <libparts>
@@ -829,6 +829,22 @@
       <fields>
         <field name="Reference">C</field>
         <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized</field>
         <field name="Datasheet">~</field>
       </fields>
       <pins>
@@ -1174,33 +1190,29 @@
       <node ref="R16" pin="2" pintype="passive"/>
       <node ref="RV2" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="5" name="/DECAY_CW">
-      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="RV2" pin="1" pinfunction="1" pintype="passive"/>
-    </net>
-    <net code="7" name="/INV">
+    <net code="6" name="/INV">
       <node ref="J3" pin="T" pintype="passive"/>
       <node ref="R22" pin="1" pintype="passive"/>
     </net>
-    <net code="8" name="/OUT">
+    <net code="7" name="/OUT">
       <node ref="J2" pin="T" pintype="passive"/>
       <node ref="R23" pin="1" pintype="passive"/>
     </net>
-    <net code="9" name="/RELEASE">
+    <net code="8" name="/RELEASE">
       <node ref="R13" pin="2" pintype="passive"/>
       <node ref="RV3" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="10" name="/SUSTAIN">
+    <net code="9" name="/SUSTAIN">
       <node ref="RV4" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="U2" pin="10" pinfunction="+" pintype="input"/>
     </net>
-    <net code="11" name="GND">
+    <net code="10" name="GND">
       <node ref="C1" pin="2" pintype="passive"/>
       <node ref="C2" pin="1" pintype="passive"/>
-      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
       <node ref="C5" pin="1" pintype="passive"/>
       <node ref="C6" pin="2" pintype="passive"/>
-      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
       <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="J1" pin="S" pintype="passive"/>
       <node ref="J2" pin="S" pintype="passive"/>
@@ -1219,17 +1231,17 @@
       <node ref="U2" pin="12" pinfunction="+" pintype="input"/>
       <node ref="U2" pin="5" pinfunction="+" pintype="input"/>
     </net>
-    <net code="12" name="Net-(D1-K)">
+    <net code="11" name="Net-(D1-K)">
       <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="Q1" pin="2" pinfunction="B" pintype="input"/>
       <node ref="R4" pin="2" pintype="passive"/>
       <node ref="R6" pin="1" pintype="passive"/>
     </net>
-    <net code="13" name="Net-(D2-A)">
+    <net code="12" name="Net-(D2-A)">
       <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="RV3" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="14" name="Net-(D2-K)">
+    <net code="13" name="Net-(D2-K)">
       <node ref="C3" pin="1" pintype="passive"/>
       <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="Q2" pin="1" pinfunction="C" pintype="passive"/>
@@ -1237,17 +1249,21 @@
       <node ref="R8" pin="2" pintype="passive"/>
       <node ref="U1" pin="4" pinfunction="R" pintype="input"/>
     </net>
-    <net code="15" name="Net-(D3-A)">
+    <net code="14" name="Net-(D3-A)">
       <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="R14" pin="2" pintype="passive"/>
       <node ref="R15" pin="1" pintype="passive"/>
     </net>
-    <net code="16" name="Net-(D3-K)">
+    <net code="15" name="Net-(D3-K)">
       <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="R13" pin="1" pintype="passive"/>
       <node ref="R16" pin="1" pintype="passive"/>
       <node ref="SW2" pin="5" pinfunction="B" pintype="passive"/>
       <node ref="U2" pin="3" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="16" name="Net-(D4-A)">
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="RV2" pin="1" pinfunction="1" pintype="passive"/>
     </net>
     <net code="17" name="Net-(D4-K)">
       <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
@@ -1352,11 +1368,11 @@
       <node ref="SW2" pin="2" pinfunction="B" pintype="passive"/>
     </net>
     <net code="39" name="Net-(SW2B-A)">
-      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
       <node ref="SW2" pin="4" pinfunction="A" pintype="passive"/>
     </net>
     <net code="40" name="Net-(SW2B-C)">
-      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
       <node ref="SW2" pin="6" pinfunction="C" pintype="passive"/>
     </net>
     <net code="41" name="Net-(U1-CV)">
